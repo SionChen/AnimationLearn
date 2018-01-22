@@ -49,12 +49,12 @@
         
         self.helperSideView.frame = CGRectMake(-40, 0, 40, 40);
         self.helperSideView.backgroundColor = [UIColor redColor];
-        //helperSideView.hidden = YES;
+        self.helperSideView.hidden = YES;
         [self.keyWindow addSubview:self.helperSideView];
         
         self.helperCenterView.frame = CGRectMake(-40, CGRectGetHeight(self.keyWindow.frame)/2 - 20, 40, 40);
         self.helperCenterView.backgroundColor = [UIColor yellowColor];
-        //helperCenterView.hidden = YES;
+        self.helperCenterView.hidden = YES;
         [self.keyWindow addSubview:self.helperCenterView];
         
         self.frame = CGRectMake(- self.keyWindow.frame.size.width/2 - menuBlankWidth, 0, self.keyWindow.frame.size.width/2+menuBlankWidth, self.keyWindow.frame.size.height);
