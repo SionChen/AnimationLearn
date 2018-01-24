@@ -13,6 +13,7 @@
 		556B5A9D2017028800DE7569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556B5A9B2017028800DE7569 /* Main.storyboard */; };
 		556B5A9F2017028800DE7569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556B5A9E2017028800DE7569 /* Assets.xcassets */; };
 		556B5AA22017028800DE7569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556B5AA02017028800DE7569 /* LaunchScreen.storyboard */; };
+		556B5AAC2017033D00DE7569 /* CuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B5AAB2017033D00DE7569 /* CuteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		556B5A9E2017028800DE7569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556B5AA12017028800DE7569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556B5AA32017028800DE7569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556B5AAA2017033D00DE7569 /* CuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuteView.h; sourceTree = "<group>"; };
+		556B5AAB2017033D00DE7569 /* CuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CuteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		556B5A912017028700DE7569 /* CuteViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				556B5AA9201702A300DE7569 /* CuteView */,
 				556B5A952017028800DE7569 /* AppDelegate.h */,
 				556B5A962017028800DE7569 /* AppDelegate.m */,
 				556B5A982017028800DE7569 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				556B5A932017028800DE7569 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		556B5AA9201702A300DE7569 /* CuteView */ = {
+			isa = PBXGroup;
+			children = (
+				556B5AAA2017033D00DE7569 /* CuteView.h */,
+				556B5AAB2017033D00DE7569 /* CuteView.m */,
+			);
+			path = CuteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				556B5A9A2017028800DE7569 /* ViewController.m in Sources */,
+				556B5AAC2017033D00DE7569 /* CuteView.m in Sources */,
 				556B5A972017028800DE7569 /* AppDelegate.m in Sources */,
 				556B5A942017028800DE7569 /* main.m in Sources */,
 			);
